@@ -1,0 +1,92 @@
+/* Centrer le texte dans .header */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0d9cc;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 40px;
+}
+
+.header img {
+    margin: 20px; /* Ajoute une marge autour de la photo */
+    border-radius: 50%; /* Donne une forme ronde à la photo */
+}
+
+/* Centrer le texte dans .serre-chevalier */
+.serre-chevalier {
+    background-color: #f0d9cc;
+    padding: 30px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 40px;
+}
+
+.serre-chevalier a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.passions { background-color:#CE5A67 ;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 40px;
+}
+    
+/* Centrer le texte dans .surf, .sport et .voyages */
+.surf, .sport, .voyages {
+    background-color:#FCF5ED ;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 40px;
+}
+
+/* Centrer le texte dans .reseaux-sociaux */
+.reseaux-sociaux {
+    background-color: #f0d9cc;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 40px;
+}
+
+/* Style de la liste de réseaux sociaux */
+.reseaux-sociaux ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.reseaux-sociaux li {
+    margin-bottom: 10px;
+    display: inline;
+    padding: 10px;
+}
+
+.reseaux-sociaux a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.reseaux-sociaux i {
+    font-size: 50px;
+}
+.reseaux-sociaux i:hover{
+    color: #CE5A67;}
+    
+.btn-pink {background-color: #FCF5ED ;
+color:#FCF5ED;
+padding: 15px 20px;
+border-radius: 4px ;
+}
+.btn-pink :hover{
+background-color: #CE5A67 ;
+color:#FCF5ED;
+}
